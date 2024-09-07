@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header id="inicio" class="comecar">
+    <h1>Bem vindo ao Quiz</h1>
+    <h2>Clique em começar para iniciar o quiz</h2>
+    <button onclick="comecar()">Começar</button>
+  </header>
+
+  <header id="pergunta1" class="mudarPergunta">
+    <section class="pergunta">
+      <h1>1. Questão</h1>
+      <h2>Qual dessas linguagem é mais comum para desenvolimento web?</h2>
+    </section>
+    <section id="opcoes">
+      <div class="opcoes">
+        <input type="radio" name="opcoesInpt" id="um">
+        <label for="um">JavaScript</label>
+      </div>
+      <div class="opcoes">
+        <input type="radio" name="opcoesInpt" id="dois">
+        <label for="dois">C#</label>
+      </div>
+      <div class="opcoes">
+        <input type="radio" name="opcoesInpt" id="tres">
+        <label for="tres">Java</label>
+      </div>
+      <div class="opcoes">
+        <input type="radio" name="opcoesInpt" id="quatro">
+
+        <label for="quatro">C</label>
+      </div>
+      <button onclick="botaoOnChange()">Enviar</button>
+    </section>
+  </header>
+
+  <header id="pergunta2" class="mudarPergunta">
+    <section class="pergunta">
+      <h1>2. Questão</h1>
+      <h2>Qual linguagem é mais utilizada para criação de IA?</h2>
+    </section>
+    <section id="opcoes">
+      <div class="opcoes">
+        <input type="radio" name="opcoesInpt" id="um2">
+        <label for="um2">Pyton</label>
+      </div>
+      <div class="opcoes">
+        <input type="radio" name="opcoesInpt" id="dois2">
+        <label for="dois2">JavaScript</label>
+      </div>
+      <div class="opcoes">
+        <input type="radio" name="opcoesInpt" id="tres2">
+        <label for="tres2">React</label>
+      </div>
+      <div class="opcoes">
+        <input type="radio" name="opcoesInpt" id="quatro2">
+
+        <label for="quatro2">C</label>
+      </div>
+      <button onclick="botaoOnChange2()">Enviar</button>
+    </section>
+  </header>
+
+  <header id="pergunta3" class="mudarPergunta">
+    <section class="pergunta">
+      <h1>3. Questão</h1>
+      <h2>Qual sistema operacional os programadores mais usam?</h2>
+    </section>
+    <section id="opcoes">
+      <div class="opcoes">
+        <input type="radio" name="opcoesInpt" id="um3">
+        <label for="um3">Linux</label>
+      </div>
+      <div class="opcoes">
+        <input type="radio" name="opcoesInpt" id="dois3">
+        <label for="dois3">macOS</label>
+      </div>
+      <div class="opcoes">
+        <input type="radio" name="opcoesInpt" id="tres3">
+        <label for="tres3">Windows</label>
+      </div>
+      <div class="opcoes">
+        <input type="radio" name="opcoesInpt" id="quatro3">
+
+        <label for="quatro3">UNIX</label>
+      </div>
+      <button onclick="botaoOnChange3()">Enviar</button>
+    </section>
+  </header>
+
+  <header id="pergunta4" class="mudarPergunta">
+    <section class="pergunta">
+      <h1>4. Questão</h1>
+      <h2>Qual desses paises pagam melhor os programadores?</h2>
+    </section>
+    <section id="opcoes">
+      <div class="opcoes">
+        <input type="radio" name="opcoesInpt" id="um4">
+        <label for="um4">Suíça</label>
+      </div>
+      <div class="opcoes">
+        <input type="radio" name="opcoesInpt" id="dois4">
+        <label for="dois4">EUA</label>
+      </div>
+      <div class="opcoes">
+        <input type="radio" name="opcoesInpt" id="tres4">
+        <label for="tres4">Dinamarca</label>
+      </div>
+      <div class="opcoes">
+        <input type="radio" name="opcoesInpt" id="quatro4">
+        <label for="quatro4">Alemanha</label>
+      </div>
+      <button onclick="botaoOnChange4()">Enviar</button>
+    </section>
+  </header>
+
+  <header id="respostaFinal" class="mudarPergunta">
+    <section class="">
+      <h1>Resultado do Quiz</h1>
+      <h2 id="calculoFinal"></h2>
+    </section>
+  </header>
+  <script src="script.js">
+
+  </script>
+</body>
+
+</html>

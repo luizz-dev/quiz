@@ -1,0 +1,137 @@
+body {
+  background: #ececec;
+}
+.mudarPergunta {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 30vh;
+  margin-left: 18vw;
+}
+.comecar {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  margin-top: 23vh;
+  margin-left: 17vw;
+  padding: 10%;
+  border-radius: 5em;
+  align-items: center;
+  border: 5px solid #000;
+  box-shadow: 0 0 20px;
+  width: 50vw;
+}
+.comecar h1 {
+  font-size: 3em;
+}
+.comecar h2 {
+  font-size: 2.2em;
+}
+.comecar button {
+  height: 50px;
+  width: 300px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.pergunta {
+  font-size: 35px;
+  margin-right: 100px !important;
+}
+.pergunta h2 {
+  font-size: 30px;
+}
+.opcoes {
+  display: flex;
+  color: #fff;
+  background: rgb(41, 46, 57);
+  border: 2px solid #000;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  width: 55%;
+  cursor: pointer;
+}
+.opcoes input {
+  width: 20px !important;
+  padding: 20px;
+}
+.opcoes:hover {
+  background: rgb(55, 61, 74);
+}
+.opcoes h1 {
+  background: #fff;
+  color: #000;
+  text-align: center;
+  border-radius: 5px;
+  width: 30px;
+}
+.opcoes label {
+  margin-top: 2vh;
+  height: 40px;
+  margin-left: 20px;
+  font-size: 20px;
+  padding-right: 60%;
+}
+button {
+  background: #a904a7;
+  border: none;
+  font-size: 18px;
+  border-radius: 20px;
+  height: 15%;
+  color: #fff;
+  width: 58%;
+}
+button:hover {
+  background: #d204ce;
+}
+
+#pergunta1 {
+  display: none;
+}
+#pergunta2 {
+  display: none;
+}
+#pergunta3 {
+  display: none;
+}
+#pergunta4 {
+  display: none;
+}
+#respostaFinal {
+  background: #fff;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 5em;
+  border: 5px solid #000;
+  margin: 25vh 0 0 15vw;
+  box-shadow: 0 0 20px;
+  padding: 10%;
+  width: 50vw;
+}
+#respostaFinal h1 {
+  font-size: 3.5em;
+}
+#respostaFinal h2 {
+  font-size: 2em;
+}
+
+@media (max-width: 1500px) {
+  .opcoes input {
+    width: 15px !important;
+    padding: 0px;
+  }
+}
+@media (max-width: 1200px) {
+  .comecar,
+  #respostaFinal {
+    margin-top: 28vh;
+  }
+  .comecar h1 {
+    font-size: 2.8em;
+  }
+  .comecar h2 {
+    font-size: 1.7em;
+  }
+}
