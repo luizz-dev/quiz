@@ -49,7 +49,7 @@ function botaoOnChange2() {
     tres.checked == true ||
     quatro.checked == true
   ) {
-    if (um.checked == true) {
+    if (quatro.checked == true) {
       acertos++;
     } else {
       erros++;
@@ -74,7 +74,7 @@ function botaoOnChange3() {
     tres.checked == true ||
     quatro.checked == true
   ) {
-    if (um.checked == true) {
+    if (tres.checked == true) {
       acertos++;
     } else {
       erros++;

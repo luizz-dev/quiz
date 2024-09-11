@@ -1,6 +1,11 @@
 @media (max-width: 820px) {
+  .comecar h1 {
+    font-size: 33px !important;
+    text-align: center;
+  }
   .comecar h2 {
-    margin: 0 0 30px 0;
+    font-size: 23px !important;
+    margin: 0 0 20px 0;
   }
   .pergunta h1 {
     font-size: 47px !important;
@@ -45,10 +50,14 @@
 }
 @media (max-width: 430px) {
   .comecar {
-    font-size: 9px !important;
+    margin-top: 33vh !important;
+  }
+  .comecar h1 {
+    font-size: 20px !important;
+    font-weight: 800;
   }
   .comecar h2 {
-    font-size: 17px !important;
+    font-size: 16px !important;
     margin-bottom: 10px !important;
   }
   .comecar button {
@@ -56,10 +65,10 @@
     width: 50vw !important;
   }
   .pergunta h1 {
-    font-size: 40px !important;
+    font-size: 38px !important;
   }
   .pergunta h2 {
-    font-size: 18px !important;
+    font-size: 15px !important;
     width: 50vw !important;
     margin-bottom: 15% !important;
   }
@@ -75,29 +84,33 @@
     height: 20vh !important;
   }
   #respostaFinal h1 {
-    font-size: 25px !important;
+    font-size: 22px !important;
   }
   #respostaFinal h2 {
-    font-size: 16px !important;
+    font-size: 15px !important;
+  }
+  button {
+    width: 45vw !important;
   }
 }
 @media (max-width: 395px) {
-  .comecar {
-    font-size: 8px !important;
+  .comecar h1 {
+    font-size: 19px !important;
+    margin: 15px 0 2px 0 !important;
   }
   .comecar h2 {
     font-size: 15px !important;
-    margin-bottom: 10px !important;
+    margin-bottom: 8px !important;
   }
   .comecar button {
     font-size: 16px !important;
     width: 45vw !important;
   }
   .pergunta h1 {
-    font-size: 38px !important;
+    font-size: 35px !important;
   }
   .pergunta h2 {
-    font-size: 18px !important;
+    font-size: 14px !important;
     width: 50vw !important;
     margin-bottom: 15% !important;
   }
@@ -110,14 +123,13 @@
   }
   #respostaFinal {
     margin-top: 35vh !important;
-    font-size: 11px !important;
     height: 20vh !important;
   }
   #respostaFinal h1 {
-    font-size: 23px !important;
+    font-size: 20px !important;
   }
   #respostaFinal h2 {
-    font-size: 15px !important;
+    font-size: 14px !important;
   }
   button {
     width: 45vw !important;
@@ -125,11 +137,11 @@
 }
 
 @media (max-width: 365px) {
-  .comecar {
-    font-size: 7px !important;
+  .comecar h1 {
+    font-size: 17px !important;
   }
   .comecar h2 {
-    font-size: 14px !important;
+    font-size: 13px !important;
     margin-bottom: 10px !important;
   }
   .comecar button {
@@ -138,10 +150,10 @@
     height: 5vh !important;
   }
   .pergunta h1 {
-    font-size: 34px !important;
+    font-size: 32px !important;
   }
   .pergunta h2 {
-    font-size: 15px !important;
+    font-size: 1px !important;
     width: 50vw !important;
     margin-bottom: 15% !important;
   }
@@ -157,13 +169,12 @@
   }
   #respostaFinal {
     margin-top: 35vh !important;
-    font-size: 11px !important;
     height: 20vh !important;
   }
   #respostaFinal h1 {
-    font-size: 22px !important;
+    font-size: 18px !important;
   }
   #respostaFinal h2 {
-    font-size: 14px !important;
+    font-size: 13px !important;
   }
 }

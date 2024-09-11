@@ -1,5 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap");
+
 body {
-  background: #ececec;
+  background: #d8d8d8;
 }
 .mudarPergunta {
   display: grid;
@@ -12,7 +16,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 20vh;
-  margin-left: 13vw;
+  margin-left: 14vw;
   padding: 10%;
   border-radius: 5em;
   align-items: center;
@@ -21,10 +25,15 @@ body {
   width: 50vw;
 }
 .comecar h1 {
+  font-family: "Libre Baskerville", serif;
   font-size: 3em;
 }
 .comecar h2 {
-  font-size: 2.2em;
+  font-family: "SUSE", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 1rem;
+  font-size: 2.1em;
 }
 .comecar button {
   height: 50px;
@@ -33,6 +42,7 @@ body {
   font-size: 20px;
 }
 .pergunta {
+  font-family: "Libre Baskerville", serif;
   font-size: 35px;
   margin-right: 100px !important;
 }
@@ -69,7 +79,8 @@ label:hover {
   width: 30px;
 }
 .opcoes label {
-  margin-top: 2vh;
+  font-family: "SUSE", sans-serif;
+  margin-top: 1.6vh;
   height: 40px;
   margin-left: 20px;
   font-size: 20px;
@@ -109,15 +120,19 @@ button:hover {
   text-align: center;
   border-radius: 5em;
   border: 5px solid #000;
-  margin: 25vh 0 0 15vw;
+  margin: 22vh 6vw 5vh 13vw;
   box-shadow: 0 0 20px;
   padding: 10%;
   width: 50vw;
 }
 #respostaFinal h1 {
+  font-family: "Libre Baskerville", serif;
   font-size: 3.5em;
 }
 #respostaFinal h2 {
+  font-family: "SUSE", sans-serif;
+  font-weight: 400;
+  font-style: italic;
   font-size: 2em;
 }
 
@@ -125,6 +140,9 @@ button:hover {
   .opcoes input {
     width: 15px !important;
     padding: 0px;
+  }
+  .comecar {
+    margin: 25vh 6vw 5vh 15vw;
   }
 }
 @media (max-width: 1200px) {
@@ -169,7 +187,7 @@ button:hover {
     font-size: 2.8em;
   }
   .comecar h2 {
-    font-size: 1.5em;
+    font-size: 1.6em;
   }
   .pergunta {
     margin-bottom: 4%;
