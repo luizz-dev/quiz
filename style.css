@@ -11,8 +11,8 @@ body {
   background: #fff;
   display: flex;
   flex-direction: column;
-  margin-top: 23vh;
-  margin-left: 17vw;
+  margin-top: 20vh;
+  margin-left: 13vw;
   padding: 10%;
   border-radius: 5em;
   align-items: center;
@@ -53,6 +53,10 @@ body {
 .opcoes input {
   width: 20px !important;
   padding: 20px;
+}
+.opcoes input:hover,
+label:hover {
+  cursor: pointer;
 }
 .opcoes:hover {
   background: rgb(55, 61, 74);
@@ -133,5 +137,48 @@ button:hover {
   }
   .comecar h2 {
     font-size: 1.7em;
+  }
+}
+@media (max-width: 1000px) {
+  .mudarPergunta {
+    grid-template-columns: none !important;
+    margin-top: 17vh;
+
+    justify-items: center;
+  }
+  .mudarPergunta h1,
+  h2 {
+    text-align: center;
+  }
+  .comecar,
+  #respostaFinal {
+    margin-top: 30vh;
+    font-size: 14px;
+  }
+  .opcoes {
+    width: 40vw;
+    margin-right: 10vh;
+  }
+  .opcoes input {
+    width: 15px;
+  }
+  button {
+    width: 42vw;
+  }
+  .comecar h1 {
+    font-size: 2.8em;
+  }
+  .comecar h2 {
+    font-size: 1.5em;
+  }
+  .pergunta {
+    margin-bottom: 4%;
+  }
+  .pergunta h1 {
+    font-size: 50px;
+  }
+  .pergunta h2 {
+    width: 45vw;
+    font-size: 25px;
   }
 }
