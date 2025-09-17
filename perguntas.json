@@ -1,0 +1,22 @@
+[
+  {
+    "pergunta": "Qual dessas linguagem é mais comum para desenvolimento web?",
+    "alternativas": ["JavaScript", "C#", "Java", "C"],
+    "correta": 0
+  },
+  {
+    "pergunta": "Qual linguagem é mais utilizada para criação de IA?",
+    "alternativas": ["C", "JavaScript", "React", "Pyton"],
+    "correta": 3
+  },
+  {
+    "pergunta": "Qual sistema operacional os programadores mais usam?",
+    "alternativas": ["Windows", "macOS", "Linux", "UNIX"],
+    "correta": 2
+  },
+  {
+    "pergunta": "Qual desses paises pagam melhor os programadores?",
+    "alternativas": ["EUA", "Suíça", "Dinamarca", "Alemanha"],
+    "correta": 1
+  }
+]
